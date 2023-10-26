@@ -100,8 +100,6 @@ Vous devrez suivre ces étapes:
 - ouvrez un fichier en utilisant la librarie `os` de Python (pensez à l'`import`),
 - générez le fichier en donnant à la template votre jeu de donnée.
 
-{% note %}
-
 **Note:** ouverture et création de fichier en python
 ```python
 import os
@@ -110,8 +108,6 @@ with open("/path/to/output_file", "w") as f:
     f.write(output)
 ```
 Remplacez `output` par une string contenant le contenu du fichier.
-
-{% endnote %}
 
 ## Aller plus loin
 
@@ -122,15 +118,12 @@ Vous avez à votre disposition une petite base de donnée sqlite `userbase.sqlit
 
 Utilisez le module `sqlite3` de python pour accéder aux données puis injectez les dans une template HTML pour afficher la liste des utilisateurs et leurs informations.
 
-{% note %}
-
 **Note:** utilisation de `sqlite3`
 ```python
 import sqlite3
 db = sqlite3.connect("todo.db")
 users = db.execute("SELECT * FROM users").fetchall()
 ```
-{% endnote %}
 
 ## Merci d'avoir participé
 Dans un futur Workshop FastAPI nous utiliserons Jinja pour créer un site web présentant une page de Todos.
