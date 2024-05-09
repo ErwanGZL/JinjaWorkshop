@@ -127,3 +127,14 @@ users = db.execute("SELECT * FROM users").fetchall()
 
 ## Merci d'avoir participé
 Dans un futur Workshop FastAPI nous utiliserons Jinja pour créer un site web présentant une page de Todos.
+
+> [!IMPORTANT]
+> **Podium**
+> 1. Niels
+> 2. Clovis
+> 3. Totofunky
+> 4. Lenny
+> 5. Matteo
+> 6. Hugo
+> 7. Gabriel
+> 8. Opinel
